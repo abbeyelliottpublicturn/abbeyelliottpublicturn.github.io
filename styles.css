@@ -1,0 +1,8 @@
+.assignment img{
+    width:200px;
+    margin: 10px;
+    border: 4px #FFF;
+}
+.assignment img:hover {
+    border: 4px dashed #F25C69;
+}
