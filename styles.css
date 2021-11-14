@@ -1,9 +1,9 @@
 body {
     background:#8FBABF;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Verdana, Helvetica;
 }
 
-.assignment{
+.assignment {
     display:flex;
     padding:10px;
     margin:10px;
@@ -11,7 +11,7 @@ body {
     border-radius: 5px;
 }
 
-.assignment img{
+.assignment img {
     width:200px;
     margin: 10px;
     border: 4px #224A59;
@@ -28,7 +28,7 @@ h1:hover {
     color: #224A59;
 }
 
-a   {
+a {
     text-decoration: none;
     color:#8C704F;
 }
