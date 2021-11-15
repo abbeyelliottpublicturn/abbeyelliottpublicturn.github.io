@@ -1,31 +1,41 @@
 body {
-    background:#8FBABF;
+    background:#59A8D9;
     font-family: Arial, Verdana, Helvetica;
 }
 
-.assignment {
+.assignments {
     display:flex;
-    padding:10px;
+    flex-wrap: wrap;
+}
+.assignment{
+    width: 22%;
+    padding: 5px;
     margin:10px;
-    background: #b0f7ff;
+    background: #C2E0F2;
     border-radius: 5px;
 }
 
 .assignment img {
-    width:200px;
+    width: 200px;
+    height: 200 px;
     margin: 10px;
-    border: 4px #224A59;
+    display:block;
+    margin:auto;
 }
 .assignment img:hover {
-    border: 4px solid #224A59;
+    border: 4px solid #021D40;
 }
 
+
 h1 {
-    color: #8C704F;
+    color: #07254b;
     text-align:center;
 }
-h1:hover {
-    color: #224A59;
+
+h2{
+    color: #8C704F; 
+    text-align:center;
+    font-size:medium;
 }
 
 a {
@@ -34,5 +44,14 @@ a {
 }
 
 a:hover {
-    color: #224A59;
+    color: #021D40;
+}
+
+h3{
+    color: #1252A6;
+    font-size: small;
+    text-align:left;
+}
+h3:hover{
+    color: #573125;
 }
